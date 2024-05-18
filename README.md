@@ -41,7 +41,6 @@ After training, we evaluate the model on the test data to assess its generalizat
 #### By Accuracy 
 We compute the test accuracy, which represents the percentage of correctly classified samples in the test set. 
 Additionally, we calculate the train accuracy to evaluate the model's performance on the training data.
-#### By Confusion matrix 
 
 ### Training Visualization
 We visualize the training process by plotting the validation accuracy across epochs for each fold in the repeated random sub-sampling validation. We also plot the average validation accuracy to assess the overall performance of the model.
