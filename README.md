@@ -43,6 +43,8 @@ This technique helps simulate variations in the duration of EEG recordings and m
 We define a Convolutional Neural Network (CNN) model using the TensorFlow Keras API to classify EEG signals into healthy and patient groups.
 The model architecture consists of several Conv1D layers followed by BatchNormalization, LeakyReLU activation, and pooling layers. 
 The final layer uses a sigmoid activation function to output the probability of each sample belonging to the positive class (patient group).
+![image](https://github.com/RawanTarekkk/EEG-Signal-Project/assets/161609730/01538168-a2f5-49db-a799-b07dfd313325)
+
 
 ### Model Training
 We compile the model using the Adam optimizer and binary cross-entropy loss function. 
