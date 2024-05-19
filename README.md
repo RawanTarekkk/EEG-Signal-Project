@@ -1,5 +1,6 @@
 # EEG-Signal-Project
-# EEG Data Analysis Project
+
+## Table Contents 
 
 ## Introduction
 This project focuses on analyzing Electroencephalogram (EEG) data to classify between healthy individuals and patients with schizophrenia. 
