@@ -1,13 +1,13 @@
 # EEG-Signal-Project
 
 ## Table Contents 
-[Introduction](Project/blob/main/README.md#introduction)
+* [Introduction](Project/blob/main/README.md#introduction)
 
-[Data Preprocessing](https://github.com/RawanTarekkk/EEG-Signal-Project/blob/main/README.md#data-processing-and-augmentation)
+* [Data Preprocessing](https://github.com/RawanTarekkk/EEG-Signal-Project/blob/main/README.md#data-processing-and-augmentation)
 
-[CNN Model](https://github.com/RawanTarekkk/EEG-Signal-Project/blob/main/README.md#convolutional-neural-network-cnn-model)
+* [CNN Model](https://github.com/RawanTarekkk/EEG-Signal-Project/blob/main/README.md#convolutional-neural-network-cnn-model)
 
-[Evaluation](https://github.com/RawanTarekkk/EEG-Signal-Project/blob/main/README.md#model-evaluation-summary)
+* [Evaluation](https://github.com/RawanTarekkk/EEG-Signal-Project/blob/main/README.md#model-evaluation-summary)
 
 
 ## Introduction
