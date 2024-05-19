@@ -84,7 +84,6 @@ This section of the code is dedicated to evaluating the performance of a Deep le
 7. **Print Overall Metrics**: Displays the calculated evaluation metrics to assess the model's performance.
 ![image](https://github.com/RawanTarekkk/EEG-Signal-Project/assets/161609730/a3216398-d77f-49b4-aadd-4088f496fc19)
 
-
 8. **Print Detailed Classification Report**: Generates a detailed classification report including precision, recall, F1-score, and support for each class.
 
 9. **Plot Confusion Matrix**: Visualizes the confusion matrix to understand the model's performance in terms of true positives, true negatives, false positives, and false negatives.
