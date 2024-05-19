@@ -1,6 +1,10 @@
 # EEG-Signal-Project
 
 ## Table Contents 
+[Introduction](Project/blob/main/README.md#introduction)
+[Data Preprocessing](https://github.com/RawanTarekkk/EEG-Signal-Project/blob/main/README.md#data-processing-and-augmentation)
+[CNN Model](https://github.com/RawanTarekkk/EEG-Signal-Project/blob/main/README.md#convolutional-neural-network-cnn-model)
+[Evaluation](https://github.com/RawanTarekkk/EEG-Signal-Project/blob/main/README.md#model-evaluation-summary)
 
 ## Introduction
 This project focuses on analyzing Electroencephalogram (EEG) data to classify between healthy individuals and patients with schizophrenia. 
