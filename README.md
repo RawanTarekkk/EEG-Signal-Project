@@ -56,6 +56,8 @@ After training, we evaluate the model on the test data to assess its generalizat
 #### By Accuracy 
 We compute the test accuracy, which represents the percentage of correctly classified samples in the test set. 
 Additionally, we calculate the train accuracy to evaluate the model's performance on the training data.
+![image](https://github.com/RawanTarekkk/EEG-Signal-Project/assets/161609730/36f20665-e105-4fbd-a5c6-bdfad56c7a15)
+
 
 ### Training Visualization
 We visualize the training process by plotting the validation accuracy across epochs for each fold in the repeated random sub-sampling validation. We also plot the average validation accuracy to assess the overall performance of the model.
@@ -65,22 +67,28 @@ Finally, we save the trained model to a file named 'my_model.h5' using the `save
 
 ## Model Evaluation Summary
 
-This section of the code is dedicated to evaluating the performance of a machine learning model for binary classification tasks. Here's a brief overview of what each part does:
+This section of the code is dedicated to evaluating the performance of a Deep learning model for binary classification tasks. Here's a brief overview of what each part does:
 
 1. **Import Necessary Libraries**: Imports essential libraries like NumPy, Seaborn, Matplotlib, and scikit-learn's metrics for evaluation.
 
 2. **Get Predicted Probabilities from the Model**: Retrieves predicted probabilities for the test data from the trained model.
 
-3. **Determine the Best Threshold**: Establishes a threshold value ( 0.8) to convert predicted probabilities into binary classifications.
+3. **Determines several Thresholds**: to Establishe a ROC evaluation curve.
 
-4. **Calculate Overall Metrics**: Computes various evaluation metrics such as accuracy, precision, recall (sensitivity), and F1-score using scikit-learn's metrics.
+4. **Determine the Best Threshold**: Establishes a threshold value ( 0.8) to convert predicted probabilities into binary classifications.
 
-5. **Calculate Specificity**: Defines a function to calculate specificity and computes it based on the confusion matrix.
+5. **Calculate Overall Metrics**: Computes various evaluation metrics such as accuracy, precision, recall (sensitivity), and F1-score using scikit-learn's metrics.
 
-6. **Print Overall Metrics**: Displays the calculated evaluation metrics to assess the model's performance.
+6. **Calculate Specificity**: Defines a function to calculate specificity and computes it based on the confusion matrix.
 
-7. **Print Detailed Classification Report**: Generates a detailed classification report including precision, recall, F1-score, and support for each class.
+7. **Print Overall Metrics**: Displays the calculated evaluation metrics to assess the model's performance.
+![image](https://github.com/RawanTarekkk/EEG-Signal-Project/assets/161609730/a3216398-d77f-49b4-aadd-4088f496fc19)
 
-8. **Plot Confusion Matrix**: Visualizes the confusion matrix to understand the model's performance in terms of true positives, true negatives, false positives, and false negatives.
 
-9. **Calculate and Plot ROC Curve and AUC**: Computes the Receiver Operating Characteristic (ROC) curve and the Area Under the Curve (AUC) to evaluate the model's ability to discriminate between positive and negative classes.
+8. **Print Detailed Classification Report**: Generates a detailed classification report including precision, recall, F1-score, and support for each class.
+
+9. **Plot Confusion Matrix**: Visualizes the confusion matrix to understand the model's performance in terms of true positives, true negatives, false positives, and false negatives.
+![image](https://github.com/RawanTarekkk/EEG-Signal-Project/assets/161609730/08278ee9-f1ef-4917-8909-c0312313284a)
+
+10. **Calculate and Plot ROC Curve and AUC**: Computes the Receiver Operating Characteristic (ROC) curve and the Area Under the Curve (AUC) to evaluate the model's ability to discriminate between positive and negative classes.
+![image](https://github.com/RawanTarekkk/EEG-Signal-Project/assets/161609730/edb0a834-0529-4213-8ec3-d3b3c1d4f3ae)
