@@ -88,7 +88,7 @@ This section of the code is dedicated to evaluating the performance of a Deep le
 
 9. **Plot Confusion Matrix**: Visualizes the confusion matrix to understand the model's performance in terms of true positives, true negatives, false positives, and false negatives.
    
-![image](https://github.com/RawanTarekkk/EEG-Signal-Project/assets/161609730/08278ee9-f1ef-4917-8909-c0312313284a)
+![image](https://github.com/RawanTarekkk/EEG-Signal-Project/assets/161609730/6a1ab3f3-4db6-44c8-9dba-75979ddb2a19)
 
 10. **Calculate and Plot ROC Curve and AUC**: Computes the Receiver Operating Characteristic (ROC) curve and the Area Under the Curve (AUC) to evaluate the model's ability to discriminate between positive and negative classes.
 
